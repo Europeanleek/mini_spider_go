@@ -1,0 +1,1 @@
+[2024/07/04 17:33:52 CST] [EROR] (icode.baidu.com/liyinjie/minispider/scheduler.(*Scheduler).Processtask.func1:112) http://www.sina.com.cn#jump0: parser.GetUrlList(): http://www.sina.com.cn#jump0: url.ParseRequestURL(): parse "http://www.sina.com.cn#jump0": invalid character "#" in host name
