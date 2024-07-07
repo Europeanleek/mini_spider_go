@@ -50,7 +50,7 @@ func Crawl(url string, timeout int) ([]byte, string, error) {
 
 		body, err = io.ReadAll(response.Body)
 		if err != nil {
-			err = fmt.Errorf("ioutil.ReadAll(): %s", err.Error())
+			err = fmt.Errorf("ioutil.ReadAll():%s", err.Error())
 			errChan <- err
 			return
 		}
