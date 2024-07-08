@@ -15,11 +15,11 @@ prepare:
 complie:build
 
 build:prepare
-	go build -o $(HOMEDIR)/server main.go
+	go build -o $(HOMEDIR)/mini-spider main.go
 
 package:
 	mkdir -p $(OUTDIR)/bin
-	mv server $(OUTDIR)/bin/server
+	mv mini-spider $(OUTDIR)/bin/mini-spider
 	mkdir $(OUTDIR)/output
 	chmod 777 output
 test: prepare
